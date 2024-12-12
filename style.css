@@ -1,0 +1,43 @@
+
+
+
+
+
+
+.input-group {
+    width:100%;
+
+}
+
+#tasklist {
+    max-width:  600px;
+    margin:auto
+}
+
+.list-group-item {
+    position:relative; /*Make the list item the container for absolute icon*/
+    border-radius:10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    background-color:antiquewhite;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list-group-item:hover {
+    background-color: white;
+}
+
+.completed {
+    text-decoration:line-through;
+    color:#aaa;
+}
+
+.button {
+    cursor:pointer;
+}
+
+#tasklist li span {
+    flex-grow:1;
+}
